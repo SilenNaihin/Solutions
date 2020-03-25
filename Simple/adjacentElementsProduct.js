@@ -1,6 +1,6 @@
 /* CODESIGNAL
 
-Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+Given an array of integers, find the pair of adjacent elements that has the largest product and return it.
 
 EXAMPLE
 - For inputArray = [3, 6, -2, -5, 7, 3], the output should be

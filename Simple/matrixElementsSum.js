@@ -7,8 +7,8 @@ of integers, where each value represents the cost of the room, your task is to r
 for the CodeBots (ie: add up all the values that don't appear below a 0).
 
 EXAMPLE
-- For
-matrix = [[0, 1, 1, 2], 
+- For matrix = 
+         [[0, 1, 1, 2], 
           [0, 5, 0, 0], 
           [2, 0, 3, 3]]
 the output should be matrixElementsSum(matrix) = 9. https://imgur.com/AQMXJSM: There are several haunted rooms, so we'll disregard 
