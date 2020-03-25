@@ -12,9 +12,12 @@ XO("zzoo") => false
 */
 
 function XO(str) {
+    // create and arayy with the string
     let arr = str.split('')
     let x = 0;
     let o = 0;
+    
+    //count amount of x's and o's by iterating through the arry
     arr.forEach((character)=>{
         if(character.toLowerCase() === 'x'){
             x++

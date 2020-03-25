@@ -18,9 +18,13 @@ CONSTRAINTS:
 function adjacentElementsProduct(inputArray) {
     let final=-1001;
     let finalArray = [];
+
+    // push the multiple of each two numbers into an array
     for(i=0; i < inputArray.length -1; i++){
         finalArray.push(inputArray[i] * inputArray[i+1]);
     };
+
+    // cycle through the array to find the highest product 
     for(i=0; i < finalArray.length; i++){
         if(finalArray[i] > final){
             final = finalArray[i];

@@ -16,7 +16,10 @@ INPUT/OUTPUT
 */
 
 function shapeArea(n) {
+    // base area
     let area = 1;
+
+    // each new shape adds another 4 plus the last one, similar to the fibonnaci sequence. Example: 1, 5, 13, 25, 41. Second diff: 4, 8, 12, 16. n - 1 because iteration is 0 based and length is 1 based.
     for(i = 0; i <= n-1; i++){
         area += i*4
     }

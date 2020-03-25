@@ -24,12 +24,17 @@ almostIncreasingSequence = sequence => {
     let counter = 0;
     let maxNum = Math.pow(-10,5);
     let max = Math.pow(-10,5);
+    [1, 3, 2, 1]
 
+    // for every value in the array:
     sequence.map(num => {
+        // check if the current num is larger than the last number (ascending). If it isn't, store the current number in the 'max variable', and renew the maxNumber variable. 
         if(num > maxNum){
             max = maxNum;
             maxNum = num;
-        } else if (num > max){
+        } 
+        // if the current number is smaller than the last one, add one to the counter because that means it's not ascending. You always want the number to be greater than maxNum
+        else if (num > max){
             maxNum = num;
             counter++;
         }else counter++;

@@ -19,9 +19,10 @@ Guaranteed constraints:
 0 ≤ statues[i] ≤ 20. */
 
 function makeArrayConsecutive2(statues) {
+    //sort the array numerically
     statues.sort(function sortNumber(a, b) {  return a - b;})
-    let min = statues[0];
-    let max = statues[statues.length -1];
-    let diff = max - min;
-    return diff - statues.length + 1
+    let min = statues[0]; //smallest number 
+    let max = statues[statues.length -1]; //largest number
+    let diff = max - min; // find the difference 
+    return diff - statues.length + 1 // the amount of numbers in between should be the difference. that's why you take away the length, to find how many are missing. add one so it doesnt take the start as a duplicate 
 }
