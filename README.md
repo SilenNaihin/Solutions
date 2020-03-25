@@ -1,0 +1,1 @@
+All my solutions to coding problems off of Codewars & Codesignal.
