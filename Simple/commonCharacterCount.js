@@ -24,7 +24,7 @@ function commonCharacterCount(s1, s2) {
     // iterate over every element in the first string
     for(i = 0; i < s1s.length; i++){
 
-        // FFr every element in the first string, iterate over ever element in the second string until you find a match. 
+        // For every element in the first string, iterate over ever element in the second string until you find a match. 
         // Then, add 1 to the counter, remove the value so there's no duplicates, and break to ensure nothing gets counted twice.
         for(q = 0; q < s2s.length; q++){
             if(s1s[i] === s2s[q]){
